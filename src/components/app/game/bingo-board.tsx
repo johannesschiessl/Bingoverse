@@ -67,7 +67,7 @@ export function BingoBoard({ gameTitle, squares = [] }: BingoBoardProps) {
     setHasWon(false);
     setWinningCells([]);
     setLoading(false);
-  }, [generateBoard]);
+  }, [generateBoard, squares]);
 
   const toggleCell = (index: number) => {
     if (index === 12) return;
