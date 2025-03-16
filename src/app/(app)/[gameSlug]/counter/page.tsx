@@ -2,12 +2,11 @@ import { getGameWithSlug } from "@/actions/game/get";
 import { getCountsWithGameId } from "@/actions/counts/get";
 import CounterClient from "@/components/app/counter/counter-client";
 
-export default async function CounterPage({
-  params,
-}: {
-  params: { gameSlug: string };
-}) {
-  const game = await getGameWithSlug(params.gameSlug);
+type Params = Promise<{ gameSlug: string }>;
+
+export default async function CounterPage({ params }: { params: Params }) {
+  const gameParams = await params;
+  const game = await getGameWithSlug(gameParams.gameSlug);
 
   if (!game.counter_on) {
     return (
