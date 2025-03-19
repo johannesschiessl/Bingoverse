@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bingoverse",
-  description: "The easiest way to play Bingo online",
+  title: "Eventverse",
+  description: "Make your event more fun with bingo or a counter! Create customised bingo cards or counters for any occasion - from school trips to watch parties.",
   manifest: "/manifest.json",
   appleWebApp: {
     title: "Bingoverse",
