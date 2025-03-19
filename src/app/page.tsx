@@ -23,7 +23,7 @@ export default function LandingPage() {
       <main className="flex flex-col items-center justify-center flex-1 px-4 text-center">
         <h1 className="text-4xl flex items-center gap-2 font-bold mb-4">
           <LayoutGrid className="size-10 p-1 bg-orange-100 text-orange-500 rounded-md" />
-          <span className="text-4xl font-bold">Bingoverse</span>
+          <span className="text-4xl font-bold">Eventverse</span>
         </h1>
         <h2 className="text-xl text-gray-600 mb-8 max-w-2xl">
           Make your event more fun with bingo or a counter! Create customised
