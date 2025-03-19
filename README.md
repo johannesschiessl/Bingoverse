@@ -1,3 +1,3 @@
-# Bingoverse
+# Eventverse
 
-The easiest way to play Bingo online.
+Make your event more fun.
